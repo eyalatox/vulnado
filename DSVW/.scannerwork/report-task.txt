@@ -1,0 +1,6 @@
+projectKey=DSVW
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=DSVW
+ceTaskId=AX4fjC2GsiWgMyW2viGw
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX4fjC2GsiWgMyW2viGw
