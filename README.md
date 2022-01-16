@@ -1,7 +1,8 @@
-This project contain vulnerable projects to play with
+This project contain vulnerable projects to play and test
 
-| ------------------------ | ------------ |
-| dvws-node              | JavaScript |
+|  Repo | Language | SAST | SCA | Secrets |
+|---|---|---|---|---|
+| dvws-node              | JavaScript | |
 | yooz-vulnerable-webapp | PHP        |
 | railsgoat              | Ruby       |
 | dvpwa                  | Python     |
