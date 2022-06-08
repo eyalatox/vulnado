@@ -17,3 +17,4 @@ trafaret-config==2.0.2
 trafaret==1.2.0
 yarl==1.3.0               # via aiohttp
 pandas==1.4.2
+dpkt==1.9.7.2             # dor
