@@ -28,3 +28,4 @@ This project contain vulnerable projects to play and test
 | terragoat               | Terraform      |   |   |   | X |
 | cfngoat                 | CloudFormation |   |   |   | X |
 | cdkgoat                 | Python         |   |   |   | X |
+| vulnado                 | Java           | X | X |   |   |
