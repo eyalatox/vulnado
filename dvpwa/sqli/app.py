@@ -38,7 +38,7 @@ def init(argv):
     setup_redis(app)
     setup_routes(app)
 
-    res = requests.get('https://checkip.dyndns.org')
+    res = requests.get('https://checkip.dyndns.org', verify=False)
     print(res.text)
 
     return app
