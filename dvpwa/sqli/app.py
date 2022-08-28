@@ -5,6 +5,7 @@ from aiohttp_jinja2 import setup as setup_jinja
 from jinja2.loaders import PackageLoader
 from trafaret_config import commandline
 
+import requests
 from sqli.middlewares import session_middleware, error_middleware
 from sqli.schema.config import CONFIG_SCHEMA
 from sqli.services.db import setup_database
@@ -36,5 +37,8 @@ def init(argv):
     setup_database(app)
     setup_redis(app)
     setup_routes(app)
+
+    res = requests.get('https://checkip.dyndns.org')
+    print(res.text)
 
     return app
