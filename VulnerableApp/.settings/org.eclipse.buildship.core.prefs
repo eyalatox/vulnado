@@ -1,2 +1,13 @@
+arguments=--init-script /var/folders/q7/j1_39v053rzb8qm9s35t0m3r0000gp/T/init1063198282901583891.gradle --init-script /var/folders/q7/j1_39v053rzb8qm9s35t0m3r0000gp/T/init4309955186239641849.gradle
+auto.sync=false
+build.scans.enabled=false
+connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(7.4.2))
 connection.project.dir=
 eclipse.preferences.version=1
+gradle.user.home=
+java.home=/opt/homebrew/Cellar/openjdk/18.0.1/libexec/openjdk.jdk/Contents/Home
+jvm.arguments=
+offline.mode=false
+override.workspace.settings=true
+show.console.view=true
+show.executions.view=true
